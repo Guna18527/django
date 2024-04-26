@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # Set the working directory inside the container
-WORKDIR /members
+WORKDIR /app
 # Copy the current directory contents into the container at /code/
 COPY . .
 
